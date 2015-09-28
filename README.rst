@@ -15,13 +15,18 @@ To install, run the following in a terminal (you will need to have `paver <http:
 
 The first command will fetch the dependencies required by the plugin. The second one will install the plugin in your local QGIS plugins folder. Open QGIS and you should already see the GeoServer Explorer plugin available in your QGIS plugin manager.
 
-Getting Help
-============
+Documentation
+=============
 
-Usage is documented `here <https://github.com/boundlessgeo/qgis-geoserver-plugin/blob/master/doc/source/intro.rst>`_
+Plug-in usage is documented `here <https://github.com/boundlessgeo/qgis-geoserver-plugin/blob/master/doc/source/intro.rst>`_
 
-If you have questions, please use the project `mailing list <https://groups.google.com/forum/#!forum/qgis-geoserver-plugin>`_
+Use `GitHub Isses <https://github.com/boundlessgeo/qgis-geoserver-plugin/issues>`_ 
 
-Use the Github project for any bug reports. Pull requests are welcome.
+Participation
+=============
 
+If you would like to help out, or have any questions, please join the project `mailing list <https://groups.google.com/forum/#!forum/qgis-geoserver-plugin>`_.
 
+Please use the project `issue tracker <https://github.com/boundlessgeo/qgis-geoserver-plugin/issues>`_ for any bug reports.
+
+We welcome your participation, either by pull-request, or by being nominated on the `mailing list <https://groups.google.com/forum/#!forum/qgis-geoserver-plugin>`_ as a committer.
