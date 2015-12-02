@@ -235,14 +235,15 @@
 <p>Below you can find more information about the operations that can be performed this way.</p>
 <ul class="simple">
 <li>Dragging a GeoServer layer item onto a GeoServer group element. It adds the layer to the group, using its default style.</li>
-<li>Dragging a GeoServer or QGIS style item onto a GeoServer layer. It adds the style to the list of alternative styles of the layer.</li>
+<li>Dragging a GeoServer or style item onto a GeoServer layer. It adds the style to the list of alternative styles of the layer.</li>
 <li>Dragging a GeoServer layer item onto the <em>GeoWebCache layers</em> item of the same catalog. It will add the corresponding cached layer for the dragged layer.</li>
 </ul>
 <p>Multiple elements can be selected and dragged, as long as they are of the same type.</p>
 <p>You can also drag elements from outside of the GeoServer Explorer itself. For instance, you can open the QGIS browser, select some files with raster or vector data and drag and drop them into a GeoServer catalog element in the GeoServer Explorer. That will cause the data in those files to be imported into the corresponding database or catalog. Format conversion will be performed automatically if needed.</p>
 <img alt="_images/dragdrop_external.png" class="align-center" src="_images/dragdrop_external.png" />
 <p>If the dragged files are not opened in the current QGIS project, no style will be uploaded along with them when publishing to a GeoServer catalog.</p>
-<p>Also, elements from the explorer can be dropped onto the QGIS canvas. GeoServer layers can be dropped onto the QGIS canvas to add them to the project. The corresponding WFS/WCS layer will be created as in the case of using the <em>Add to QGIS project</em> menu option, already described.</p>
+<p>To upload a layer and its style, you can drag and drop an element in the QGIS Layers panel.</p>
+<p>Also, elements from the explorer can be dropped onto the QGIS canvas. GeoServer layers can be dropped onto the QGIS canvas to add them to the project. The corresponding WFS/WCS layer will be created as in the case of using the <em>Add to QGIS project</em> menu option, already described. If a group element is dragged from the Explorer and into the canvas, a WMS layer corresponding to that layer group will be added to the tproject.</p>
 </div>
 </div>
 
