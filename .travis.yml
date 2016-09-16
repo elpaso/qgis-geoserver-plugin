@@ -10,7 +10,7 @@ env:
   - QGIS_VERSION_TAG=master_2
   - QGIS_VERSION_TAG=master
   fast_finish: true
-allow_failures:
+  allow_failures:
   - env QGIS_VERSION_TAG=master
 before_install:
 - apt-cache madison docker-engine
