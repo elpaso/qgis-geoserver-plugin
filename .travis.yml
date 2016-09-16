@@ -5,7 +5,7 @@ env:
   global:
   - DOCKER_VERSION=1.12.0-0~trusty
   - DOCKER_COMPOSE_VERSION=1.7.1
-  matrix:
+matrix:
   fast_finish: true
   - QGIS_VERSION_TAG=release
   - QGIS_VERSION_TAG=master_2
