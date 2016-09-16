@@ -8,6 +8,7 @@ env:
   matrix:
   - QGIS_VERSION_TAG=release
   - QGIS_VERSION_TAG=master_2
+  - QGIS_VERSION_TAG=master
   allow_failures:
   - QGIS_VERSION_TAG=master
   fast_finish: true
