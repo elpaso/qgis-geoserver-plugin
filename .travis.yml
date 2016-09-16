@@ -6,12 +6,13 @@ env:
   - DOCKER_VERSION=1.12.0-0~trusty
   - DOCKER_COMPOSE_VERSION=1.7.1
   matrix:
-    fast_finish: true
   - QGIS_VERSION_TAG=release
   - QGIS_VERSION_TAG=master_2
   - QGIS_VERSION_TAG=master
-    allow_failures:
-    - env QGIS_VERSION_TAG=master
+  
+matrix:
+  allow_failures:
+  - env: QGIS_VERSION_TAG=master
 
 before_install:
 - apt-cache madison docker-engine
